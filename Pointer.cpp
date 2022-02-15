@@ -17,6 +17,8 @@ int main(int argc, char const *argv[])
     cout<< pointer<<endl; // address of var pointer points to
     cout<< &pointer<<endl; // address of pointer variable
     cout<< *pointer<<endl; // value of var pointer points (dereferencing)
+
+    *pointer = 11; // changes value of number 
     cout<< number<<endl; 
     cout<< &number;     // address of number in memory
 
